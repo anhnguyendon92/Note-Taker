@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "Note-Taker",
+  "description": "Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/anhnguyendon92/Note-Taker/issues"
   },
-  "homepage": "https://github.com/anhnguyendon92/Note-Taker#readme"
+  "homepage": "https://github.com/anhnguyendon92/Note-Taker#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  }
 }
